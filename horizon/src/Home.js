@@ -129,7 +129,39 @@ you're just starting out or looking to scale, I’m always open to sharing what 
     </section>
 
     <section class="information">
-        
+        <div class="container1">
+    
+
+    <div class="section1 full-width">
+      <h2>Multifamily Portfolio – Nationally</h2>
+      <p>
+        Horizon Heights has multiple stabilized assets strategically located nationally. With a mix of co-living properties and short-term rental units, Horizon Heights has created a resilient, high-yield income stream that balances stability with growth.
+      </p>
+    </div>
+
+
+    <div class="split-row">
+      <div class="section1 split">
+        <h3>Highlights</h3>
+        <p>
+          -4 Co-Living Properties in desirable locals
+<br></br>-2 Airbnbs in High-Demand Tourist Zones
+<br></br>-100% Occupancy for 6+ Months
+<br></br>-Managed by Proven Local Teams
+        </p>
+      </div>
+      <div class="section1 split">
+        <h3>Performance</h3>
+        <p>
+          -15% Avg. Cash-on-Cash Return (CoCR)
+<br></br>-2.2x Projected Equity Multiple
+<br></br>-7-Year Investment Horizon
+<br></br>-Tax-Advantaged Cash Flow & Depreciation
+        </p>
+      </div>
+    </div>
+
+  </div>
     </section>
     <section class="contact">
         <div class="contactform">
@@ -152,9 +184,6 @@ you're just starting out or looking to scale, I’m always open to sharing what 
           <p1>
 “Let’s connect and explore how we can create wealth, opportunity, and impact—together” - Gary Schwartz</p1>
         </div>
-    </section>
-            
-    <section class="social-links">
     </section>
             <div className="footer">
                 <div class="footer-content">
