@@ -1,10 +1,23 @@
 import React,  { useState } from "react";
 import "./index.css";
-import main from './assets/olivemain.jpeg';
+import main from './assets/cropcity3.jpg';
+import gary from './assets/gary.png';
+import plan from './assets/projplan1.png';
+import plan1 from './assets/projplan4.jpg';
+import room from './assets/room.webp';
+import olive from './assets/horizon.png';
+import room1 from './assets/room1.webp';
+import worker from './assets/worker.webp';
+import worker1 from './assets/worker1.webp';
+import city1 from './assets/city1.webp';
+import city2 from './assets/city2.jpg';
+import city3 from './assets/city3.jpg';
+import city4 from './assets/horizoncity.jpg';
+import projplan from './assets/projplan.png';
 
 export default function Home() {
-    //const [isOpen, setIsOpen] = useState(false)
-    //console.log(isOpen)
+    const [isOpen, setIsOpen] = useState(false)
+    console.log(isOpen)
     return (
     
     <div className="container">
@@ -12,115 +25,146 @@ export default function Home() {
         <div class="testing">
         <img class="olivemain" src={main} alt="logo" height="120px"/>
         <div class="landing">
-            <h1 id="landingText">We arise and take our position for a destiny-driven 
-            life in Christ Jesus - a calling for in depth Sacred Scripture study to benefit the poorest of the poor.</h1>
+            <h1 id="landingText">Elevate Your Living  - Learn Real Estate - Join the Journey -</h1>
             <a href= "www.google.com" id="landingLearn">
-                <h3 id="landingLearnText">Learn More</h3>
+                <h3 id="landingLearnText">Learn More ➔</h3>
             </a>
         </div>
         </div>
-
-        <section class="about">
-            <div class="header-container">
-                <h1 id="header-title">Our Ministry</h1>
-                <p1 id="header-p">From terror to honor,
-<br></br>From despair to repair,
-<br></br>From devastation to restoration,
-<br></br>From mistakes to miracles,
-<br></br>From suffering to rejoicing,
-<br></br>From darkness to light,
-<br></br>From misery to victory,
-<br></br>We arise and take our position for a destiny-driven life in Christ Jesus.
-- a calling for in depth Sacred Scripture study to benefit the poorest of the poor.</p1>
-            </div>
-            <div class="header-img">
         
+        <section class="about">
+          <div class="aboutphoto">
+            <img class="garyimg" src={gary} alt="logo"/>
+            
+            <div class="garyimgdecor"></div>
+          </div>
+            <div class="header-container">
+              <h1 id="aboutname">Gary Schwartz</h1>
+                <h1 id="header-title">CEO of The Horizon Heights</h1>
+                
+                <p1 id="header-p">I’ve been guided by a simple but powerful vision: to build a life of stability,
+freedom, and abundance for my family.
+<br></br>
+<br></br>I wanted to break free from the cycle of financial
+stress and instead create a legacy fueled by passive income and purpose-driven
+entrepreneurship.
+<br></br>
+<br></br>To start, I explored alternative investment platforms like Fundrise (9.1% ROI), Groundfloor
+(11.3%), and Yieldstreet (~7%). These early steps laid the groundwork for my real estate
+journey. 
+<br></br>
+<br></br>Today, I’m proud to be a full-time real estate investor, committed to building a
+diversified portfolio that supports my family and helps others achieve financial freedom.
+</p1>
+            </div>
+            <div class="divider"></div>
+            <div class="header-img">
             </div>
         </section>
         
-        <section class="carousel" aria-label="Gallery">
-  <ol class="carousel__viewport">
-    <li id="carousel__slide1"
-        tabindex="0"
-        class="carousel__slide">
-  <div class="slide-label">St Joseph Home Caring Home Caring Place - Meru Kenya</div>
-      <div class="carousel__snapper">
-        <a href="#carousel__slide4"
-           class="carousel__prev">Go to last slide</a>
-        <a href="#carousel__slide2"
-           class="carousel__next">Go to next slide</a>
-      </div>
-    </li>
-    <li id="carousel__slide2"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <div class="slide-label">It is an orphanage for about 60 boys found in streets with no food to eat and no one to take care of them. The orphanage also interacts with the community around it to share the love of God.</div>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide3"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <div class="slide-label">Donations for Chosen Ministries go to three orphanages- two in the Philippines and one in Kenya</div>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
-    </li>
-    <li id="carousel__slide4"
-        tabindex="0"
-        class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <div class="slide-label"></div>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
-    </li>
-  </ol>
-  <aside class="carousel__navigation">
-    <ol class="carousel__navigation-list">
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
-      </li>
-      <li class="carousel__navigation-item">
-        <a href="#carousel__slide4"
-           class="carousel__navigation-button">Go to slide 4</a>
-      </li>
-    </ol>
-  </aside>
-</section>
+        <section class="highlights">
+          <div class="aboutphoto">
+            <div class="highlightspace"></div>
+            <div class="garyimgdecordecor"></div>
+            <div class="garyimgdecordecordecor"></div>
+            <h1 id="highlighttitle">Committed to Impact</h1>
+            <p1 id="highlighttext">This high-end boutique hotel is located in the heart of downtown Cincinnati, steps from Paycor Stadium and the Convention Center. Designed to blend luxury and purpose, the project will offer 100 rooms, a rooftop restaurant, and rotating free accommodations for unhoused individuals and military veterans.
+              
+            </p1>
+<br></br>
+<br></br>
+
+<br></br>
+<img id="projectimg"src={plan}></img>
+<div class="projectimgdecor"></div>
+<p1 id="highlighttext1"> <br></br>As part of Horizon Heights' mission, this project allocates a percentage of available rooms each month to local veterans and individuals in need of temporary shelter. This initiative partners with community nonprofits to ensure a sustainable and dignified support model for our investors.
+<br></br>
+              <br></br>Projected IRR: 18% 
+              <br></br>Target Equity Multiple: 2.3x
+              <br></br>5-Year Hold Period
+              <br></br>Preferred Return: 8%</p1>
+<a href= "www.google.com" id="projectbtn">
+                <h3 id="projectbtntext">More Details ➔</h3>
+            </a>
+<img id="projectimg1"src={plan1}></img>
+<div class="projectimg1decor"></div>
+          </div>
+          
+
+        </section>
 
     <section class="current-work">
-        <h2>Test Title</h2>
+      <h1 id="worktitle">Your Next Opportunity</h1>
         <div class="work-content">
             
-            <div class="text-content">
 
-                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p1>
-            </div>
+  <div class="collage">
+    <img src={projplan} alt="Photo 1" class="photo1" />
+    <img src={worker} alt="Photo 2" class="photo2" />
+    <img src={city1} alt="Photo 3" class="photo3" />
+    <img src={city3} alt="Photo 4" class="photo4" />
+    <img src={city4} alt="Photo 5" class="photo5" />
+    <img src={worker1} alt="Photo 6" class="photo6" />
+    <img src={room1} alt="Photo 7" class="photo7" />
+    <img src={city2} alt="Photo 8" class="photo8" />
+  </div>
+</div>
+<div class="workp">
+    <p class="workparagraph">Feel free to partner with us! I can provide proof-of-funds letters within minutes for up
+to $1M. Larger amounts are possible with a bit more lead time.
+<br></br>
+<br></br>
+I operate from a "pay-it-forward" mindset. So many people have supported me on this
+journey, and I feel a responsibility — and privilege — to do the same for others. Whether
+you're just starting out or looking to scale, I’m always open to sharing what I’ve learned.</p>
+      
+  </div>
+  <div class="workp1">
+    <a href= "www.google.com" class="workbtn">
+                <h3 id="workbtntext">Meet With Me ➔</h3>
+            </a>
+    
+  </div>
+
+    </section>
+
+    <section class="information">
         
-            
+    </section>
+    <section class="contact">
+        <div class="contactform">
+          <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+        </div>
+        <div class="contactphoto">
+          <img id="contactimg"src={room}></img>
+          <p1>
+“Let’s connect and explore how we can create wealth, opportunity, and impact—together” - Gary Schwartz</p1>
         </div>
     </section>
             
     <section class="social-links">
     </section>
             <div className="footer">
-                <h1></h1>
+                <div class="footer-content">
+    <img src={olive} alt="Company Logo" class="footer-logo" width="50px"></img>
+    <h3 class="footer-company-name">THE HORIZON HEIGHTS</h3>
+    <p class="footer-phone">
+      <a href="tel:+13102661388" color="#fff">(310) 266-1388</a>
+    </p>
+    <p class="footer-copy">&copy; 2025 The Horizon Heights. All rights reserved.</p>
+  </div>
             </div>
         </div>
     

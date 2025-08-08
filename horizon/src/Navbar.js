@@ -1,18 +1,18 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import title from './assets/websiteTitle.png';
-import olive from './assets/olive.png';
+import olive from './assets/horizon.png';
 
 export default function Navbar() {
     return (
         <nav className="nav">
             <Link to="/" className= "site-title">
             <div>
-                <img class="olive" src={olive} alt="logo" height="40px"/>            
+                <img class="olive" src={olive} alt="logo" height="70px"/>            
             </div>    
-            <div>
-                Youth Ministry International
-            </div>
             </Link>
+            <div className="site-name">
+                THE HORIZON HEIGHTS
+            </div>
             <ul className="links">
                 <CustomLink to="/about">Who Are We</CustomLink>
                 <CustomLink to="/work">Our Work</CustomLink>
