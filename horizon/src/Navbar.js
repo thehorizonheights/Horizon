@@ -13,8 +13,8 @@ export default function Navbar() {
                 THE HORIZON HEIGHTS
             </div>
             <ul className="links">
-                <CustomLink to="/about">Who Are We</CustomLink>
-                <CustomLink to="/work">Our Work</CustomLink>
+                <CustomLink to="/">Who Are We</CustomLink>
+                <CustomLink to="/">Our Work</CustomLink>
             </ul>
         </nav>
     )
@@ -32,3 +32,5 @@ function CustomLink({ to, children, ...props }) {
         </li>
     )
 }
+//<CustomLink to="/about">Who Are We</CustomLink>
+//<CustomLink to="/work">Our Work</CustomLink>
