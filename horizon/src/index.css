@@ -21,7 +21,6 @@ html, body {
   height: 800px;
   position: relative;
   object-fit: cover;
-  background-color: red;
   opacity: 100%;
 }
 .testings{
