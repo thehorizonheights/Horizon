@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { Link } from "react-router-dom"
 import olive from './assets/horizon.png';
 import { HashLink as Anchor } from 'react-router-hash-link';
 

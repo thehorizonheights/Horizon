@@ -176,7 +176,7 @@ p {
   white-space: nowrap;
 }
 @media all and (max-width: 1500px) {
-  .site-name{ padding-left: 25rem; }
+  .site-name{ padding-left: 20rem; }
   .nav .links a { 
   font-size: 15px;
 }
