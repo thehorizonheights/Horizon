@@ -170,10 +170,13 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  padding-left: 15rem;
+  padding-left: 30rem;
   margin-bottom: 20px;
   position:relative;
   white-space: nowrap;
+}
+@media all and (max-width: 1500px) {
+  .site-name{ padding-left: 10rem; }
 }
 
 .nav ul {

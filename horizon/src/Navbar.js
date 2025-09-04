@@ -1,5 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import olive from './assets/horizon.png';
+import { HashLink as Anchor } from 'react-router-hash-link';
 
 export default function Navbar() {
     return (
@@ -13,8 +14,9 @@ export default function Navbar() {
                 THE HORIZON HEIGHTS
             </div>
             <ul className="links">
-                <CustomLink to="/">Who Are We</CustomLink>
-                <CustomLink to="/">Our Work</CustomLink>
+                <Anchor to="/#about">Who Are We</Anchor>
+                <Anchor to="/#highlights">Our Work</Anchor>
+                <Anchor to="/#contact">Contact Us</Anchor>
             </ul>
         </nav>
     )

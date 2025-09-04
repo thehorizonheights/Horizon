@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         </div>
         
-        <section class="about">
+        <section class="about" id="about">
           <div class="aboutphoto">
             <img class="garyimg" src={gary} alt="logo"/>
             
@@ -62,7 +62,7 @@ diversified portfolio that supports my family and helps others achieve financial
             </div>
         </section>
         
-        <section class="highlights">
+        <section class="highlights" id="highlights">
           <div class="aboutphoto">
             <div class="highlightspace"></div>
             <div class="garyimgdecordecor"></div>
@@ -163,7 +163,7 @@ you're just starting out or looking to scale, I’m always open to sharing what 
 
   </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contactform">
           <h2>Contact Us</h2>
     <form action="#" method="POST">
