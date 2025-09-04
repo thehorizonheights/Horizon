@@ -26,7 +26,7 @@ export default function Home() {
         <img class="olivemain" src={main} alt="logo" height="120px"/>
         <div class="landing">
             <h1 id="landingText">Elevate Your Living  - Learn Real Estate - Join the Journey -</h1>
-            <a href= "www.google.com" id="landingLearn">
+            <a href= "https://calendly.com/realgmschwartz/30-min-virtual-meeting-invitee-name-gary-clone?" id="landingLearn">
                 <h3 id="landingLearnText">Learn More ➔</h3>
             </a>
         </div>
@@ -83,7 +83,7 @@ diversified portfolio that supports my family and helps others achieve financial
               <br></br>Target Equity Multiple: 2.3x
               <br></br>5-Year Hold Period
               <br></br>Preferred Return: 8%</p1>
-<a href= "www.google.com" id="projectbtn">
+<a href= "https://calendly.com/realgmschwartz/30-min-virtual-meeting-invitee-name-gary-clone?" id="projectbtn">
                 <h3 id="projectbtntext">More Details ➔</h3>
             </a>
 <img id="projectimg1"src={plan1} alt="buildingroof"></img>
@@ -120,7 +120,7 @@ you're just starting out or looking to scale, I’m always open to sharing what 
       
   </div>
   <div class="workp1">
-    <a href= "www.google.com" class="workbtn">
+    <a href= "https://calendly.com/realgmschwartz/30-min-virtual-meeting-invitee-name-gary-clone?" class="workbtn">
                 <h3 id="workbtntext">Meet With Me ➔</h3>
             </a>
     
