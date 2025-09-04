@@ -21,18 +21,3 @@ export default function Navbar() {
         </nav>
     )
 }
-            //<img src={title} alt="logo" width="180px" height="40px"/>
-/*
-function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-    return (
-        <li className={isActive ? "active" : ""}>
-            <Link to={to} {...props}>
-                {children}
-            </Link>
-        </li>
-    )
-}*/
-//<CustomLink to="/about">Who Are We</CustomLink>
-//<CustomLink to="/work">Our Work</CustomLink>
