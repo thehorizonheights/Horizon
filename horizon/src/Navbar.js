@@ -22,7 +22,7 @@ export default function Navbar() {
     )
 }
             //<img src={title} alt="logo" width="180px" height="40px"/>
-
+/*
 function CustomLink({ to, children, ...props }) {
     const resolvedPath = useResolvedPath(to)
     const isActive = useMatch({ path: resolvedPath.pathname, end: true })
@@ -33,6 +33,6 @@ function CustomLink({ to, children, ...props }) {
             </Link>
         </li>
     )
-}
+}*/
 //<CustomLink to="/about">Who Are We</CustomLink>
 //<CustomLink to="/work">Our Work</CustomLink>
