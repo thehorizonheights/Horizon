@@ -16,7 +16,7 @@ import city4 from './assets/horizoncity.jpg';
 import projplan from './assets/projplan.png';
 
 export default function Home() {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen] = useState(false)
     console.log(isOpen)
     return (
     
@@ -75,7 +75,7 @@ diversified portfolio that supports my family and helps others achieve financial
 <br></br>
 
 <br></br>
-<img id="projectimg"src={plan}></img>
+<img id="projectimg"src={plan} alt="projectbuilding"></img>
 <div class="projectimgdecor"></div>
 <p1 id="highlighttext1"> <br></br>As part of Horizon Heights' mission, this project allocates a percentage of available rooms each month to local veterans and individuals in need of temporary shelter. This initiative partners with community nonprofits to ensure a sustainable and dignified support model for our investors.
 <br></br>
@@ -86,7 +86,7 @@ diversified portfolio that supports my family and helps others achieve financial
 <a href= "www.google.com" id="projectbtn">
                 <h3 id="projectbtntext">More Details ➔</h3>
             </a>
-<img id="projectimg1"src={plan1}></img>
+<img id="projectimg1"src={plan1} alt="buildingroof"></img>
 <div class="projectimg1decor"></div>
           </div>
           
@@ -99,14 +99,14 @@ diversified portfolio that supports my family and helps others achieve financial
             
 
   <div class="collage">
-    <img src={projplan} alt="Photo 1" class="photo1" />
-    <img src={worker} alt="Photo 2" class="photo2" />
-    <img src={city1} alt="Photo 3" class="photo3" />
-    <img src={city3} alt="Photo 4" class="photo4" />
-    <img src={city4} alt="Photo 5" class="photo5" />
-    <img src={worker1} alt="Photo 6" class="photo6" />
-    <img src={room1} alt="Photo 7" class="photo7" />
-    <img src={city2} alt="Photo 8" class="photo8" />
+    <img src={projplan} alt="wholebuilding" class="photo1" />
+    <img src={worker} alt="threepeople" class="photo2" />
+    <img src={city1} alt="brightnightcityscape" class="photo3" />
+    <img src={city3} alt="darknightcityscape" class="photo4" />
+    <img src={city4} alt="daycityscape" class="photo5" />
+    <img src={worker1} alt="threepeoplesuits" class="photo6" />
+    <img src={room1} alt="brightroom" class="photo7" />
+    <img src={city2} alt="bluecityscape" class="photo8" />
   </div>
 </div>
 <div class="workp">
@@ -180,7 +180,7 @@ you're just starting out or looking to scale, I’m always open to sharing what 
     </form>
         </div>
         <div class="contactphoto">
-          <img id="contactimg"src={room}></img>
+          <img id="contactimg"src={room} alt="contactbrightroom"></img>
           <p1>
 “Let’s connect and explore how we can create wealth, opportunity, and impact—together” - Gary Schwartz</p1>
         </div>

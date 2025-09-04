@@ -1,5 +1,4 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import title from './assets/websiteTitle.png';
 import olive from './assets/horizon.png';
 
 export default function Navbar() {
