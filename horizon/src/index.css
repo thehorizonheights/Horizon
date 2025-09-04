@@ -176,7 +176,12 @@ p {
   white-space: nowrap;
 }
 @media all and (max-width: 1500px) {
-  .site-name{ padding-left: 10rem; }
+  .site-name{ padding-left: 25rem; }
+  .nav .links a { 
+  font-size: 15px;
+}
+.nav{padding: 0 0px;
+padding-left: 50px;}
 }
 
 .nav ul {
@@ -216,7 +221,7 @@ p {
   align-items: center;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: #053F69;
   animation-name: example;
   animation-duration: 0.5s;
